@@ -17,7 +17,7 @@ main_text = """
 
 print(main_text)
 
-ctypes.windll.user32.SystemParametersInfoW(20, 0, "C:\\Users\\%username%\\assets\\background.png" , 0)
+ctypes.windll.user32.SystemParametersInfoW(20, 0, "assets\\background.png" , 0)
 
 ly = ["we're no strangers to love" , "you know the rules and so do i" , "a full commitment's what i'm thinking of" , "you won't get this from any other guy" , "i just wanna tell you how i m feeling" , "gotta make you understand" , "never gonna give you up" , "never gonna let you down" , "never gonna run around and desert you" , "never gonna make you cry" , "never gonna say good bye" , "never gonna tell a lie and hurt you"]
 
