@@ -1,3 +1,8 @@
+'''
+This file is used to make the exe. 
+python setup.py build
+'''
+
 from cx_Freeze import setup, Executable
 
 base = None    
