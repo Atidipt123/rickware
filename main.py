@@ -1,9 +1,12 @@
 import webbrowser
 import os
 import ctypes
+import random
 
 os.system("@echo off")
 os.system("cls")
+
+SCRIPTS = ['script_one.vbs' , 'script_two.vbs']
 
 main_text = """
 
@@ -31,3 +34,6 @@ for i in range(12):
 
 for x in range(11):
     webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+
+for s in range(26):
+    os.system(f'scripts\\{random.choice(SCRIPTS)}')
